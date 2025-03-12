@@ -10,15 +10,16 @@
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #702082;
-    background: #CFC096;
+    color: green;
+    background: lightsteelblue;
+   
   }
 
   .radio {
     grid-column-start: 1;
     grid-column-end: 3;
     /* background: #575294; */
-    color: #702082;
+    color: green;
   }
 
   #name {
@@ -26,8 +27,8 @@
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background: #CFC096;
-    color: #9B9A6D;
+    background: white;
+    color: black;
   }
 
   #message {
@@ -40,7 +41,7 @@
   textarea {
     padding: 10px;
     border: 1px solid #ccc;
-    width: 100%;
+    width: 5%;
   }
 
   input[type="submit"] {
@@ -56,3 +57,28 @@
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  .skip a{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top: -40px;
+    left: -900px;
+}
+
+.skip a:focus{
+    top: 20px;
+    left: 0px;
+}
+
+
+.upload-button{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+}
+
+#image{
+  width:100%;
+}
